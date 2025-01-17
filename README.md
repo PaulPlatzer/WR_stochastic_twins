@@ -1,4 +1,4 @@
-# Weather Regimes: from Random to Multifractal
+# Disentangling Density and Geometry in Weather Regime Dimensions using Stochastic Twins
 
 This GitHub repository hosts codes and notebooks accompanying a publication by P. Platzer, B. Chapron and G. Messori. All codes written by Paul Platzer. Running the notebooks on your machine allows to reproduce the figures of the article. It can also be used to reproduce the study on another geographical area, or to make parameter sensitivity tests.
 
