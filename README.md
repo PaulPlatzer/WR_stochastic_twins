@@ -65,28 +65,28 @@ More information [here](https://cds.climate.copernicus.eu/datasets/reanalysis-er
 
 This article focuses on the multifractal properties of the atmospheric circulation, in particular on the local scaling exponent called "local dimension". This local dimension is a geometrical measure of the instantaneous number of degrees of freedom of the system. However, it also depends on local variations of sampling density. Therefore, this article develops a methodology to isolate the density-based variations of local dimension from the full local dimension variation, which are also multifractal-based. To do so, we generate stochastic twins of the atmosphere, which have similar density but do not share the multifractal properties of the atmospheric flow.
 
-## North-Atlantic weather regimes
+## North Atlantic weather regimes
 
-The article focuses on the following four winter-time North-Atlantic weather regimes, displayed below as the means of a Gaussian mixture model over the three leading empirical orthogonal functions of 10-days running averages of 500mb geopotential height anomaly from ERA5 reanalysis:
+The article focuses on the following four winter-time North Atlantic weather regimes, displayed below as the means of a Gaussian mixture model over the three leading empirical orthogonal functions of 10-days running averages of 500mb geopotential height anomaly from ERA5 reanalysis:
 
-![Weather-regime maps](/outputs/figures/regimes_GMMattribution.png)
+![Weather-regime maps](/outputs/figures/final_edit_for_publication/regimes_GMMattribution.png)
 
 ## Stochastic twins
 
 The main proposition of the article is to generate stochastic twins of the atmosphere that bear similar density but are not multifractal. In this figure, one stochastic twin trajectory is compared to the full ERA5 trajectory over the period of study (1979-2023):
 
-![Trajectories of ERA5 and stochastic twins](/outputs/figures/trajectories_EOFs.png)
+![Trajectories of ERA5 and stochastic twins](/outputs/figures/final_edit_for_publication/trajectories_EOFs.png)
 
 ## Local dimensions
 
 Then we compute the local dimension from stochastic twins and from the original ERA5 reanalysis data. Here is a scatter plot:
 
-![Scatter plot of ERA5-based and twins-based local dimension](/outputs/figures/d_hist_K450.png)
+![Scatter plot of ERA5-based and twins-based local dimension](/outputs/figures/final_edit_for_publication/d_hist_K450.png)
 
 And here we show that the characteristic decrease of dimension around weather regime peak indices is mostly a density-based phenomenon, as the stochastic twins-based estimates of dimension anomaly (dashed for the average, dotted for the standard deviation) reproduce the behavior of the ERA-based estimates (full lines for the average +- standard deviation)
 
-![Dimension anomaly decrease near peak WRI](/outputs/figures/d_life-cycle_twins_as_analogs.png)
+![Dimension anomaly decrease near peak WRI](/outputs/figures/final_edit_for_publication/d_life-cycle_twins_as_analogs.png)
 
 We also reproduce the anticorrelation of local dimension anomaly versus peak weather regime index using the stochastic twins, showing again that this is primarily a density-based phenomenon, rather than a possible multifractal-based one.
 
-![Dimension anomaly anti-correlated to peak WRI](/outputs/figures/d_peak_WRI.png)
+![Dimension anomaly anti-correlated to peak WRI](/outputs/figures/final_edit_for_publication/d_peak_WRI.png)
