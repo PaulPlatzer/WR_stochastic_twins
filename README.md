@@ -65,6 +65,12 @@ More information [here](https://cds.climate.copernicus.eu/datasets/reanalysis-er
 
 This article focuses on the multifractal properties of the atmospheric circulation, in particular on the local scaling exponent called "local dimension". This local dimension is a geometrical measure of the instantaneous number of degrees of freedom of the system. However, it also depends on local variations of sampling density. Therefore, this article develops a methodology to isolate the density-based variations of local dimension from the full local dimension variation, which are also multifractal-based. To do so, we generate stochastic twins of the atmosphere, which have similar density but do not share the multifractal properties of the atmospheric flow.
 
+## Geometry-based vs. density-based changes in local dimension estimates
+
+Local dimension estimates vary depending on the target state used. These variations can be the reflexion of changes in geometry (i.e. number of degrees of freedom) or density (i.e. rare events vs. common events). In this illustration we show an example of geometry-based change (between 2D and 1D uniform) and density-based change (between 2D minimum and 2D maximum).
+
+![Illustration](/outputs/figures/final_edit_for_publication/illustration.png)
+
 ## North Atlantic weather regimes
 
 The article focuses on the following four winter-time North Atlantic weather regimes, displayed below as the means of a Gaussian mixture model over the three leading empirical orthogonal functions of 10-days running averages of 500mb geopotential height anomaly from ERA5 reanalysis:
